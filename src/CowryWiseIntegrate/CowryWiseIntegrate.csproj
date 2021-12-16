@@ -5,4 +5,18 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="WebHookUtilities\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RestSharp" Version="106.15.0" />
+    <PackageReference Include="RestSharp.Serializers.SystemTextJson" Version="106.15.0" />
+    <PackageReference Include="System.Text.Json" Version="6.0.1" />
+  </ItemGroup>
+
 </Project>
