@@ -9,7 +9,6 @@
     <Folder Include="Data\" />
     <Folder Include="Extensions\" />
     <Folder Include="WebHookUtilities\" />
-    <Folder Include="Services\" />
   </ItemGroup>
 
   <ItemGroup>
